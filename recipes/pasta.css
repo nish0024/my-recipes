@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 249, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(235, 91, 7);
+    padding: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.container {
+    background-color: rgb(241, 228, 211) ;
+    padding: 40px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(235, 102, 62, 0.1);
+    border-radius: 30px;
+    max-width: 700px;
+}
+
+h1 {
+     font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.list {
+    padding: 0;
+    list-style-type: number;
+}
+
+.list li {
+    margin: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.tip {
+    margin-top: 40px;
+    font-style: italic;
+    color: rgb(232, 46, 74);
+    background-color: rgb(246, 211, 217);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.ingredients { background-color: antiquewhite;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    color: rgb(235, 91, 7);
+    font-style: italic;
+    
+}
+
+.steps {
+    background-color: antiquewhite;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    color: rgb(235, 91, 7);
+    font-weight: 500;
+    font-style: italic;
+
+}
